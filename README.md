@@ -5,7 +5,7 @@ Portable plugin with existing Claude Code compatibility for [Higgsfield AI](http
 ## Install
 
 ```
-/plugin marketplace add jurislm/higgsfield-plugin
+/plugin marketplace add r-seriesx/higgsfield-plugin
 /plugin install higgsfield@higgsfield-plugin
 /reload-plugins
 ```
@@ -13,11 +13,11 @@ Portable plugin with existing Claude Code compatibility for [Higgsfield AI](http
 ## Codex and Cursor
 
 ```bash
-codex plugin marketplace add jurislm/higgsfield-plugin
+codex plugin marketplace add r-seriesx/higgsfield-plugin
 codex plugin add higgsfield@higgsfield-marketplace
 ```
 
-For Cursor, import `https://github.com/jurislm/higgsfield-plugin` as a GitHub
+For Cursor, import `https://github.com/r-seriesx/higgsfield-plugin` as a GitHub
 marketplace. The portable and host manifests select the same official remote
 MCP endpoint. OAuth is managed by the host; no API token or stdio launcher is
 stored in this package. Keep MCP OAuth and CLI login acceptance separate.
@@ -80,4 +80,4 @@ connecting to Higgsfield or running its CLI. The Bun package is private and has
 no runtime entrypoint. Woodpecker performs source checks and Release Please
 manages Git versions/releases; no npm runtime is published.
 
-This repository follows [JurisLM Plugin Architecture v1](https://github.com/jurislm/woodpecker-ci-plugin/blob/main/docs/plugin-architecture.md).
+This repository follows [JurisLM Plugin Architecture v1](https://github.com/r-seriesx/woodpecker-ci-plugin/blob/main/docs/plugin-architecture.md).
