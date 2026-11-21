@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "higgsfield",
   "description": "Higgsfield AI image/video/3D/audio generation — official hosted remote MCP (OAuth) + 7 CLI-based skills",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "Terry Chen",
     "url": "https://github.com/terry90918"
